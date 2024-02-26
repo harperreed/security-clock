@@ -1,7 +1,7 @@
 let img1, newImg1, img2, newImg2; // Textures for spheres
 let loadingNewImage1 = false, loadingNewImage2 = false; // Flags for loading textures
 let x1 = 0, y1 = 0, x2 = 300, y2 = 300; // Initial positions
-let xspeed1 = 2, yspeed1 = 2, xspeed2 = -2, yspeed2 = -2; // Initial speeds
+let xspeed1 = 40, yspeed1 = 40, xspeed2 = -40, yspeed2 = -40; // Initial speeds
 let angle1 = 0, angle2 = 0; // Rotation angles
 let sphereSize = 100; // Size of the spheres
 let lastTextureChange1 = 0, lastTextureChange2 = 0; // Last texture change times
