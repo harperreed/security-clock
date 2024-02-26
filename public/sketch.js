@@ -1,9 +1,9 @@
 let img1, newImg1, img2, newImg2; // Textures for spheres
 let loadingNewImage1 = false, loadingNewImage2 = false; // Flags for loading textures
-let x1 = 0, y1 = 0, x2 = 200, y2 = 200; // Initial positions
+let x1 = 0, y1 = 0, x2 = 800, y2 = 800; // Initial positions
 let xspeed1 = 2, yspeed1 = 2, xspeed2 = -2, yspeed2 = -2; // Initial speeds
 let angle1 = 0, angle2 = 0; // Rotation angles
-let sphereSize = 100; // Size of the spheres
+let sphereSize = 400; // Size of the spheres
 let lastTextureChange1 = 0, lastTextureChange2 = 0; // Last texture change times
 let imgUrl1 = '/proxy?url=http://192.168.120.54:11080/endpoint/@scrypted/webhook/public/54/d91ea50c4766676f/takePicture';
 let imgUrl2 = '/proxy?url=http://192.168.120.54:11080/endpoint/@scrypted/webhook/public/53/3002be7ece2db4bc/takePicture'; // Use a different URL for a different texture
