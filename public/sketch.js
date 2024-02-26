@@ -47,7 +47,7 @@ function draw() {
   rotateZ(angle * 0.1);
 
   // Increment angle for continuous rotation
-  angle += 0.05;
+  angle += 0.005;
 
   // Apply texture and draw cube
   texture(img);
