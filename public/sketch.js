@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  clear(); // Makes the background clear
+  background(0); // Makes the background clear
 
   // Check if 10 seconds have passed to refresh the texture
   if (millis() - lastTextureChange > 10000) {
